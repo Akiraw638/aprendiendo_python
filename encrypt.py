@@ -62,11 +62,6 @@ def decrypt(inputValue, keys, token):
     
     return decrypted_text
 
-
-value = [2:4]
-
-print(value)
-
 decrypted_text = decrypt("M+0+s +3+m+0+gos son G+8+NI+4+L+8+S.", {"i":0,"E":8,"a":3,"A":4},"+")
 
 print(decrypted_text)
